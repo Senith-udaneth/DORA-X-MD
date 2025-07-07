@@ -35,7 +35,7 @@ lite({
         // Send result
         await client.sendMessage(from, {
             image: imageBuffer,
-            caption: "> XdKing2 is tha best",
+            caption: "> hashuzz is tha best",
             mimetype: 'image/png'
         }, { quoted: message });
 

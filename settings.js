@@ -12,7 +12,7 @@ module.exports = {
     PREFIX: process.env.PREFIX || ".",
     // add your prefix for bot
 
-    BOT_NAME: process.env.BOT_NAME || "ʟɪᴛᴇ-xᴅ",
+    BOT_NAME: process.env.BOT_NAME || "𝐇𝐀𝐒𝐇𝐔𝐙𝐙 𝐌𝐃",
     // add bot name here for menu
 
     MODE: process.env.MODE || "public",

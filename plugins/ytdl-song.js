@@ -41,10 +41,10 @@ lite({
             `🌏 *Release Ago:* ${ago || "Unknown"}\n` +
             `👤 *Author:* ${author?.name || "Unknown"}\n` +
             `🖇 *Url:* ${url || "Unknown"}\n\n` +
-            `🔽 *Reply with your choice:*\n` +
-            `> 1 *Audio Type* 🎵\n` +
-            `> 2 *Document Type* 📁\n\n` +
-            `${config.FOOTER || "ʟɪᴛᴇ-xᴅ"}`;
+            `🔽 *REPLAY WITH YOUR CHOICE:*\n` +
+            `> 1 *AUDIO TYPE* 🎵\n` +
+            `> 2 *DOCUMENT TYPE* 📁\n\n` +
+            `${config.FOOTER || "𝙷𝙰𝚂𝙷𝚄𝚉𝚉-𝙼𝙳"}`;
 
         const sentMsg = await conn.sendMessage(from, { image: { url: image }, caption: info }, { quoted: mek });
         const messageID = sentMsg.key.id;

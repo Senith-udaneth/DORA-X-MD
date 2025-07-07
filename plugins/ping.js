@@ -32,7 +32,7 @@ async (conn, mek, m, { from, quoted, sender, reply }) => {
         const end = new Date().getTime();
         const responseTime = (end - start) / 1000;
 
-        const text = `> *LITE RESPONSE: ${responseTime.toFixed(2)}m/s ${reactionEmoji}*`;
+        const text = `> *𝐇𝐀𝐒𝐇𝐔𝐙𝐙 𝐌𝐃 𝐒𝐏𝐄𝐄𝐃: ${responseTime.toFixed(2)}m/s ${reactionEmoji}*`;
 
         await conn.sendMessage(from, {
             text,
@@ -41,8 +41,8 @@ async (conn, mek, m, { from, quoted, sender, reply }) => {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363402507750390@newsletter',
-                    newsletterName: "ᴍᴀʟᴠɪɴ ᴋɪɴɢ ᴛᴇᴄʜ",
+                    newsletterJid: '120363418166378841@newsletter',
+                    newsletterName: "𝐃𝐎𝐑𝐀 𝐱 𝐌𝐃 𝐎𝐅𝐂 👾",
                     serverMessageId: 143
                 }
             }
@@ -54,5 +54,5 @@ async (conn, mek, m, { from, quoted, sender, reply }) => {
     }
 });
 
-// created by malvin king
+// created by real dora
 

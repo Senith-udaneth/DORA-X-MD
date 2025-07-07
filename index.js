@@ -68,7 +68,7 @@ setInterval(clearTempDir, 5 * 60 * 1000)
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
   if (!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
-  const sessdata = config.SESSION_ID.replace("𝙷𝙰𝚂𝙷𝚄𝚉𝚉-𝙼𝙳=", '')
+  const sessdata = config.SESSION_ID.replace("HASHUZZ-MD=", '')
   const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
   filer.download((err, data) => {
     if (err) throw err
@@ -133,7 +133,7 @@ https://youtube.com/@malvintech2
 > © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅɪɴɪᴛʜɪ 📍`;
     conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/lm4a0b.jpg` }, caption: up })
 
-          const channelJid = "120363402507750390@newsletter"
+          const channelJid = "120363418166378841@newsletter"
           try {
             await conn.newsletterFollow(channelJid)
             console.log(`Successfully followed channel: ${channelJid}`)

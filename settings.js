@@ -88,7 +88,7 @@ module.exports = {
     READ_MESSAGE: process.env.READ_MESSAGE || "false",
     // Turn true or false for automatic read msgs
 
-    AUTO_REACT: process.env.AUTO_REACT || "false",
+    AUTO_REACT: process.env.AUTO_REACT || "true",
     // make this true or false for auto react on all msgs
 
     ANTI_BAD: process.env.ANTI_BAD || "false",
@@ -103,7 +103,7 @@ module.exports = {
     AUTO_REPLY: process.env.AUTO_REPLY || "false",
     // make true or false automatic text reply 
 
-    ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
+    ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
     // make true for always online 
 
     PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
@@ -124,7 +124,7 @@ module.exports = {
     ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "inbox",
     // change it to 'inbox' or 'same' if you want to resend deleted message in same chat 
 
-    AUTO_RECORDING: process.env.AUTO_RECORDING || "false",
+    AUTO_RECORDING: process.env.AUTO_RECORDING || "true",
     // make it true for auto recording 
 
     version: process.env.version || "0.0.5",

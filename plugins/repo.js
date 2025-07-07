@@ -23,15 +23,15 @@ lite({
         const data = await res.json();
 
         const caption = `
-╭━━〔 🔎 *Repository Info* 〕━━⬣
-┃ 📦 *Bot Name:* ${data.name}
-┃ 👑 *Owner:* ${data.owner.login}
-┃ ⭐ *Stars:* ${data.stargazers_count}
-┃ 🍴 *Forks:* ${data.forks_count}
-┃ 🔗 *Link:* ${data.html_url}
-┃ 📝 *Description:* ${data.description || 'No description'}
+╭━━〔 🔎 *𝐑𝐄𝐏𝐎𝐒𝐈𝐓𝐎𝐑𝐘 𝐈𝐍𝐅𝐎* 〕━━⬣
+┃ 📦 *𝙱𝙾𝚃 𝙽𝙰𝙼𝙴:* ${data.name}
+┃ 👑 *𝙾𝚆𝙽𝙴𝚁:* ${data.owner.login}
+┃ ⭐ *𝚂𝚃𝙰𝚁𝚂:* ${data.stargazers_count}
+┃ 🍴 *𝙵𝙾𝚁𝙺𝚂:* ${data.forks_count}
+┃ 🔗 *𝙻𝙸𝙽𝙺:* ${data.html_url}
+┃ 📝 *𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝚃𝙸𝙾𝙽:* ${data.description || 'No description'}
 ╰━━━━━━━━━━━━━━━━━━━━⬣
-✨ *Don't forget to ★ and fork!*
+✨ *𝙳𝙾𝙽'𝚃 𝙵𝙾𝚁𝙶𝙴𝚃 𝚃𝙾 ★ 𝙰𝙽𝙳 𝙵𝙾𝚁𝙺!*
 🔧 ${config.DESCRIPTION}
         `.trim();
 
@@ -40,8 +40,8 @@ lite({
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363402507750390@newsletter',
-                newsletterName: 'Malvin Tech',
+                newsletterJid: '120363418166378841@newsletter',
+                newsletterName: '𝐃𝐎𝐑𝐀 𝐱 𝐌𝐃 𝐎𝐅𝐂 👾',
                 serverMessageId: 143
             }
         };

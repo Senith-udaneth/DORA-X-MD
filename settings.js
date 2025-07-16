@@ -42,7 +42,7 @@ module.exports = {
     ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
     // make true to know who dismiss or promoted a member in group
 
-    ANTI_LINK: process.env.ANTI_LINK || "true",
+    ANTI_LINK: process.env.ANTI_LINK || "false",
     // make anti link true,false for groups 
 
     MENTION_REPLY: process.env.MENTION_REPLY || "false",
@@ -109,7 +109,7 @@ module.exports = {
     PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
     // make false if want private mode
 
-    AUTO_TYPING: process.env.AUTO_TYPING || "false",
+    AUTO_TYPING: process.env.AUTO_TYPING || "true",
     // true for automatic show typing  
 
     READ_CMD: process.env.READ_CMD || "false",
